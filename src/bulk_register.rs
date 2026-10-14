@@ -34,6 +34,7 @@ pub fn register_all_indicator_modules(
     crate::indicators::avgprice::register_avgprice_module(indicators_module)?;
     crate::indicators::bbands::register_bbands_module(indicators_module)?;
     crate::indicators::bop::register_bop_module(indicators_module)?;
+    crate::indicators::breakout::register_breakout_module(indicators_module)?;
     crate::indicators::candlestick::register_candlestick_module(indicators_module)?;
     crate::indicators::ccfisher::register_ccfisher_module(indicators_module)?;
     crate::indicators::cci::register_cci_module(indicators_module)?;

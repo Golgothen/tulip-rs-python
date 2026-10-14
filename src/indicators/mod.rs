@@ -11,6 +11,7 @@ pub mod atr;
 pub mod avgprice;
 pub mod bbands;
 pub mod bop;
+pub mod breakout;
 pub mod candlestick;
 pub mod ccfisher;
 pub mod cci;
